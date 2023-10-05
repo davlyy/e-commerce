@@ -6,7 +6,17 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: "url('../public/images/hero1.jpg')",
+      },
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        darkwhite: "#F2F0F1",
+        semigray: "rgba(0, 0, 0, 0.60)",
+      },
+    },
   },
   plugins: [],
 };

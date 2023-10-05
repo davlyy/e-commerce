@@ -1,4 +1,5 @@
 import DiscountBar from "@/components/DiscountBar";
+import HeroPage from "@/components/HeroPage";
 import NavBar from "@/components/NavBar";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <DiscountBar></DiscountBar>
       <NavBar></NavBar>
+      <HeroPage></HeroPage>
     </div>
   );
 }
