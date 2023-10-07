@@ -5,9 +5,9 @@ import Image from "next/image";
 const HeroPage = () => {
   return (
     <div>
-      <div className={`h-[1440px] w-full bg-darkwhite relative`}>
-        <div className="w-[577px] ml-[100px] pt-[103px] pb-[63px]">
-          <h1 className="text-[64px] font-bold leading-[64px] pb-8 ">
+      <div className={`h-[663px] w-full bg-darkwhite relative overflow-hidden`}>
+        <div className="w-[577px] ml-[200px] pt-[103px] pb-[63px]">
+          <h1 className="text-[64px] font-black leading-[64px] pb-8 ">
             FIND CLOTHES THAT MATCHES YOUR STYLE
           </h1>
           <h3 className="text-semigray pb-[47px]">
@@ -19,7 +19,7 @@ const HeroPage = () => {
             Shop Now
           </button>
         </div>
-        <div className="flex ml-[100px]">
+        <div className="flex ml-[200px]">
           <ul className="text-[40px] font-bold flex text-left">
             <li className="flex flex-col border-r pr-[32px]">
               200+
@@ -41,16 +41,16 @@ const HeroPage = () => {
             </li>
           </ul>
         </div>
-        <div className="absolute top-[297px] right-[700px]">
+        <div className="absolute top-[297px] right-[850px]">
           <PiStarFourFill size={40} />
         </div>
         <div>
           <Image
             src={hero1}
             width={600}
-            height={1}
+            height={20}
             alt="hero"
-            className="absolute right-[100px] top-0"
+            className="absolute top-0 right-[150px]"
           ></Image>
         </div>
         <div className="top-[86px] right-[81px] absolute">
