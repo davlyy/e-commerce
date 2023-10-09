@@ -3,6 +3,7 @@ import DiscountBar from "@/components/DiscountBar";
 import HeroPage from "@/components/HeroPage";
 import NavBar from "@/components/NavBar";
 import Showcase from "@/components/Showcase";
+import CategoriesBlock from "@/components/CategoriesBlock";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Brands></Brands>
       <Showcase></Showcase>
       <Showcase></Showcase>
+      <CategoriesBlock></CategoriesBlock>
     </div>
   );
 }
