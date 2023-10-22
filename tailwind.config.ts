@@ -13,6 +13,10 @@ module.exports = {
 
       backgroundImage: {
         hero: "url('../public/images/hero1.jpg')",
+        casual: "url('../public/images/image 11.svg')",
+        formal: "url('../public/images/image 12.svg')",
+        party: "url('../public/images/image 13.svg')",
+        gym: "url('../public/images/image 14.svg')",
       },
       colors: {
         transparent: "transparent",
